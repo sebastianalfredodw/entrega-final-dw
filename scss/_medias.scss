@@ -1,0 +1,32 @@
+// MEDIAS PARA EL USUARIO:
+/* En caso de que el usuario tenga su dispositivo en modo dark */
+@media (prefers-color-sheme:dark) {
+    :root {
+        --color--primario: #f0f0f0;
+        --color--secundario: #181818;
+    }
+}
+
+// MEDIAS POR DEFECTO EN EL PROYECTO:
+/* indicarle que desde el inicio del codigo no haya ni animaciones ni trancisiones
+a menos que se lo indiquemos en el documento */
+@media (prefers-reduced-motion:reduce) {
+    * {
+        animation: none;
+        transition: none;
+    }
+}
+
+// MEDIA QUERIES PARA ELEMENTOS DE LOS HTML 
+
+// media para dimension de los botones en formato smartphone distinto del desktop
+@media screen and (max-width:768px) {
+    .btn {
+        font-size: 20px;
+    }
+
+    .contacto {
+        text-align: center;
+
+    }
+}

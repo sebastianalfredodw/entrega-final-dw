@@ -1,0 +1,79 @@
+/* Configuracion inicial de color */
+:root {
+    --color-primario: #181818;
+    --color--secundario: #f0f0f0;
+}
+
+/* Configuramos los margenes, padding, border a CERO
+/* evitamos problemas con medias y frames */
+img,
+picture,
+video,
+iframe,
+figure {
+    max-width: 100%;
+    width: 100%
+}
+
+//++++ otro sutil uso de nesting +++++
+a {
+    display: block;
+
+    & p {
+        display: inline;
+    }
+
+}
+
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: none;
+}
+
+/* seleccion de color nativa  */
+::selection {
+    background-color: var(--color-primario);
+    color: var(--color--secundario)
+}
+
+// ++++ anidacion de elementos para entregarles atributos por defecto 
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    /* si el texto no cabe en una linea, le coloca un guion y continua abajo  */
+    background-color: transparent;
+    display: block;
+    color: inhierit;
+}
+
+
+/* reseteamos las tablas (EN CASO DE USARLAS) */
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}

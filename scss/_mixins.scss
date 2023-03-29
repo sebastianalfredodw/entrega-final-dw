@@ -1,0 +1,10 @@
+@mixin titulosH1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+@mixin pad {
+    padding-top: $--padding-menu;
+}

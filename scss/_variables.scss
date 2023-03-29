@@ -1,0 +1,15 @@
+$--fuente-principal: 'Roboto', sans-serif;
+$--color-primario: #000000;
+$--padding-menu: 10px;
+$--border-imagen: 20px 20px 20px 20px;
+$--button--size: 14px;
+
+// breakpoints basados en bootstrap.com (solo de referencia)
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
