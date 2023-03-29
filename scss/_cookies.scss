@@ -37,9 +37,11 @@ main {
 
 .aviso-cookies .titulo,
 .aviso-cookies .parrafo {
-	margin-bottom: 15px;
-	font-size: large;
-	overflow: hidden;
+	margin-bottom: 12px;
+	font-size: medium;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
 }
 
 .aviso-cookies .boton {
