@@ -1,83 +1,4 @@
 @charset "UTF-8";
-/* Configuracion inicial de color */
-:root {
-  --color-primario: #181818;
-  --color--secundario: #f0f0f0;
-}
-
-/* Configuramos los margenes, padding, border a CERO
-/* evitamos problemas con medias y frames */
-img,
-picture,
-video,
-iframe,
-figure {
-  max-width: 100%;
-  width: 100%;
-}
-
-a {
-  display: block;
-}
-a p {
-  display: inline;
-}
-
-li {
-  list-style-type: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: none;
-}
-
-/* seleccion de color nativa  */
-::-moz-selection {
-  background-color: var(--color-primario);
-  color: var(--color--secundario);
-}
-::selection {
-  background-color: var(--color-primario);
-  color: var(--color--secundario);
-}
-
-form,
-input,
-textarea,
-select,
-button,
-label {
-  font-family: inherit;
-  font-size: inherit;
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  /* si el texto no cabe en una linea, le coloca un guion y continua abajo  */
-  background-color: transparent;
-  display: block;
-  color: inhierit;
-}
-
-/* reseteamos las tablas (EN CASO DE USARLAS) */
-table,
-tr,
-td {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-svg {
-  width: 100%;
-  display: block;
-  fill: currentColor;
-}
-
 /* En caso de que el usuario tenga su dispositivo en modo dark */
 @media (prefers-color-sheme: dark) {
   :root {
@@ -222,6 +143,8 @@ main {
 .aviso-cookies .titulo,
 .aviso-cookies .parrafo {
   margin-bottom: 15px;
+  font-size: large;
+  overflow: hidden;
 }
 
 .aviso-cookies .boton {
@@ -429,4 +352,8 @@ main {
 }
 .container-meto .elemento .p2 {
   font-size: 30px;
+}
+
+.navbar {
+  z-index: 97;
 }/*# sourceMappingURL=estilo.css.map */
