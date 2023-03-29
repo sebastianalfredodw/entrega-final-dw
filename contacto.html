@@ -55,28 +55,41 @@
         </div>
     </nav>
     <!-- FIN NAV -->
-    <div class="clase fantasma pt-3"></div>
-    <div class="container pt-5">
-        <h3 class="text-center m-4 overflow-hidden strong__bienvenido text-black">Hablemos!</h3>
-        <div class="row">
-            <div class="col-md-8">
-                <form action="/post" method="post">
-                    <input class="form-control" name="name" placeholder="Nombre..." /><br />
-                    <input class="form-control" name="phone" placeholder="Telefono..." /><br />
-                    <input class="form-control" name="email" placeholder="E-mail..." /><br />
-                    <textarea class="form-control" name="text" placeholder="Escribeme..."
-                        style="height:150px;"></textarea><br />
-                    <input class="boton-enviar btn btn-success" type="submit" value="Enviar" /><br /><br />
-                </form>
+    <main>
+        <div class="clase fantasma pt-3"></div>
+        <div class="container pt-5">
+            <h3 class="text-center m-4 overflow-hidden strong__bienvenido text-black">Hablemos!</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="/post" method="post">
+                        <input class="form-control" name="name" placeholder="Nombre..." /><br />
+                        <input class="form-control" name="phone" placeholder="Telefono..." /><br />
+                        <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                        <textarea class="form-control" name="text" placeholder="Escribeme..."
+                            style="height:150px;"></textarea><br />
+                        <input class="boton-enviar btn btn-success" type="submit" value="Enviar" /><br /><br />
+                    </form>
+                </div>
+                <div class="contacto col-md-4 pt-4">
+                    <b>Ubicación:</b><br />
+                    Santiago de Chile, Republica de Chile. <br />
+                    Region Metropolitana.<br /><br />
+                </div>
             </div>
-            <div class="contacto col-md-4 pt-4">
-                <b>Ubicación:</b><br />
-                Santiago de Chile, Republica de Chile. <br />
-                Region Metropolitana.<br /><br />
-            </div>
-        </div>
 
+        </div>
+    </main>
+
+    <!-- BANNER COOKIES -->
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta" src="./img/cookie/cookie.svg" alt="Galleta">
+        <h3 class="titulo">Cookies</h3>
+        <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+        <a class="enlace" href="./aviso-cookies.html">Aviso de Cookies</a>
     </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
     <!-- INICIO FOOTER -->
     <footer class="container-fluid text-center">
         <div class="col pt-4">
