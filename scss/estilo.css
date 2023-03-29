@@ -265,7 +265,7 @@ main {
 }
 
 .img_portfolio {
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 30px 30px 30px 30px;
 }
 
 .aqua {
@@ -295,7 +295,7 @@ main {
 }
 
 .radius-meto {
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 30px 30px 30px 30px;
 }
 
 .container-meto {
@@ -356,4 +356,8 @@ main {
 
 .navbar {
   z-index: 97;
+}
+
+.historia {
+  overflow: hidden;
 }/*# sourceMappingURL=estilo.css.map */

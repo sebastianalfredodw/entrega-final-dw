@@ -76,8 +76,8 @@
 }
 
 .img_portfolio {
-    border-radius: $--border-imagen;
-}
+    border-radius: $--border-imagen
+}    
 
 .aqua {
     background-color: aqua;
@@ -182,4 +182,8 @@
 
 .navbar {
     z-index: 97;
+}
+
+.historia{
+    overflow: hidden;
 }
